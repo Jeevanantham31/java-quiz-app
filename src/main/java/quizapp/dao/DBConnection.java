@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 public class DBConnection {
     private static final String URL = "jdbc:mysql://localhost:3306/quizdb";
     private static final String USER = "root";      
-    private static final String PASSWORD = "12345678";  
+    private static final String PASSWORD = "my_password";  
 
     public static Connection getConnection() {
         try {
